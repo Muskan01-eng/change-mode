@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    padding: 1% 5%;
+    height: 10%;
+    width: 100%;
+    background-color:aliceblue;
+    color: black;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 2px 15px;
+    display: inline-block;
+   
+}
+.brand{
+    color: blueviolet;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 50rem;
+}
+
+#front{
+    margin: 1% 1%;
+    padding: 1% 5%;
+}
+#side{
+    margin: 50px 20px;
+    float: left;
+    position:relative;
+}
+
+#picture1{
+    margin: 50px 32px;
+    float: left;
+    position:relative
+}
+#picture2{
+    margin: 50px 38px;
+    float: right;
+    position:relative
+}
+.pic{
+    height: 18rem;
+    width: 10rem;
+    background-color: grey;
+    float: left;
+    position: relative;
+    margin: 1.5REM;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
